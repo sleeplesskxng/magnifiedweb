@@ -1,0 +1,93 @@
+:root {
+
+/* ---------------------- */
+/* --- PRIMARY SHADES --- */
+/* ---------------------- */
+	
+    --p-50: hsl(var(--primary-h), calc(var(--primary-s) + 6*((100% - var(--primary-s)) / 6)),97.5%);
+	--p-75: hsl(var(--primary-h), calc(var(--primary-s) + 5*((100% - var(--primary-s)) / 6)),90%);
+	--p-100: hsl(var(--primary-h), calc(var(--primary-s) + 4*((100% - var(--primary-s)) / 6)),82.5%);
+	--p-200: hsl(var(--primary-h), calc(var(--primary-s) + 3*((100% - var(--primary-s)) / 6)),75%);
+	--p-300: hsl(var(--primary-h), calc(var(--primary-s) + 2*((100% - var(--primary-s)) / 6)),67.5%);
+	--p-400: hsl(var(--primary-h), calc(var(--primary-s) + (100% - var(--primary-s)) / 6),60%);
+	--p-500: hsl(var(--primary-h), var(--primary-s),52.5%);
+	--p-600: hsl(var(--primary-h), calc(var(--primary-s) + (100% - var(--primary-s)) / 6),45%);
+	--p-700: hsl(var(--primary-h), calc(var(--primary-s) + 2*((100% - var(--primary-s)) / 6)),37.5%);
+	--p-800: hsl(var(--primary-h), calc(var(--primary-s) + 3*((100% - var(--primary-s)) / 6)),30%);
+	--p-900: hsl(var(--primary-h), calc(var(--primary-s) + 4*((100% - var(--primary-s)) / 6)),22.5%);
+	--p-950: hsl(var(--primary-h), calc(var(--primary-s) + 5*((100% - var(--primary-s)) / 6)),15%);
+	--p-975: hsl(var(--primary-h), calc(var(--primary-s) + 6*((100% - var(--primary-s)) / 6)),7.5%);
+
+/* ------------------------ */
+/* --- SECONDARY SHADES --- */
+/* ------------------------ */
+	
+    --s-50: hsl(var(--secondary-h), calc(var(--secondary-s) + 6*((100% - var(--secondary-s)) / 6)),97.5%);
+	--s-75: hsl(var(--secondary-h), calc(var(--secondary-s) + 5*((100% - var(--secondary-s)) / 6)),90%);
+	--s-100: hsl(var(--secondary-h), calc(var(--secondary-s) + 4*((100% - var(--secondary-s)) / 6)),82.5%);
+	--s-200: hsl(var(--secondary-h), calc(var(--secondary-s) + 3*((100% - var(--secondary-s)) / 6)),75%);
+	--s-300: hsl(var(--secondary-h), calc(var(--secondary-s) + 2*((100% - var(--secondary-s)) / 6)),67.5%);
+	--s-400: hsl(var(--secondary-h), calc(var(--secondary-s) + (100% - var(--secondary-s)) / 6),60%);
+	--s-500: hsl(var(--secondary-h), var(--secondary-s),52.5%);
+	--s-600: hsl(var(--secondary-h), calc(var(--secondary-s) + (100% - var(--secondary-s)) / 6),45%);
+	--s-700: hsl(var(--secondary-h), calc(var(--secondary-s) + 2*((100% - var(--secondary-s)) / 6)),37.5%);
+	--s-800: hsl(var(--secondary-h), calc(var(--secondary-s) + 3*((100% - var(--secondary-s)) / 6)),30%);
+	--s-900: hsl(var(--secondary-h), calc(var(--secondary-s) + 4*((100% - var(--secondary-s)) / 6)),22.5%);
+	--s-950: hsl(var(--secondary-h), calc(var(--secondary-s) + 5*((100% - var(--secondary-s)) / 6)),15%);
+	--s-975: hsl(var(--secondary-h), calc(var(--secondary-s) + 6*((100% - var(--secondary-s)) / 6)),7.5%);
+
+/* ----------------------*/
+/* --- ACCENT SHADES --- */
+/* ----------------------*/
+	
+    --a-50: hsl(var(--accent-h), calc(var(--accent-s) + 6*((100% - var(--accent-s)) / 6)),97.5%);
+	--a-75: hsl(var(--accent-h), calc(var(--accent-s) + 5*((100% - var(--accent-s)) / 6)),90%);
+	--a-100: hsl(var(--accent-h), calc(var(--accent-s) + 4*((100% - var(--accent-s)) / 6)),82.5%);
+	--a-200: hsl(var(--accent-h), calc(var(--accent-s) + 3*((100% - var(--accent-s)) / 6)),75%);
+	--a-300: hsl(var(--accent-h), calc(var(--accent-s) + 2*((100% - var(--accent-s)) / 6)),67.5%);
+	--a-400: hsl(var(--accent-h), calc(var(--accent-s) + (100% - var(--accent-s)) / 6),60%);
+	--a-500: hsl(var(--accent-h), var(--accent-s),52.5%);
+	--a-600: hsl(var(--accent-h), calc(var(--accent-s) + (100% - var(--accent-s)) / 6),45%);
+	--a-700: hsl(var(--accent-h), calc(var(--accent-s) + 2*((100% - var(--accent-s)) / 6)),37.5%);
+	--a-800: hsl(var(--accent-h), calc(var(--accent-s) + 3*((100% - var(--accent-s)) / 6)),30%);
+	--a-900: hsl(var(--accent-h), calc(var(--accent-s) + 4*((100% - var(--accent-s)) / 6)),22.5%);
+	--a-950: hsl(var(--accent-h), calc(var(--accent-s) + 5*((100% - var(--accent-s)) / 6)),15%);
+	--a-975: hsl(var(--accent-h), calc(var(--accent-s) + 6*((100% - var(--accent-s)) / 6)),7.5%);
+	
+/* ------------------- */
+/* --- BASE SHADES --- */
+/* ------------------- */
+	
+    --b-50: hsl(var(--base-h), calc(var(--base-s) + 6*((100% - var(--base-s)) / 6)),97.5%);
+	--b-75: hsl(var(--base-h), calc(var(--base-s) + 5*((100% - var(--base-s)) / 6)),90%);
+	--b-100: hsl(var(--base-h), calc(var(--base-s) + 4*((100% - var(--base-s)) / 6)),82.5%);
+	--b-200: hsl(var(--base-h), calc(var(--base-s) + 3*((100% - var(--base-s)) / 6)),75%);
+	--b-300: hsl(var(--base-h), calc(var(--base-s) + 2*((100% - var(--base-s)) / 6)),67.5%);
+	--b-400: hsl(var(--base-h), calc(var(--base-s) + (100% - var(--base-s)) / 6),60%);
+	--b-500: hsl(var(--base-h), var(--base-s),52.5%);
+	--b-600: hsl(var(--base-h), calc(var(--base-s) + (100% - var(--base-s)) / 6),45%);
+	--b-700: hsl(var(--base-h), calc(var(--base-s) + 2*((100% - var(--base-s)) / 6)),37.5%);
+	--b-800: hsl(var(--base-h), calc(var(--base-s) + 3*((100% - var(--base-s)) / 6)),30%);
+	--b-900: hsl(var(--base-h), calc(var(--base-s) + 4*((100% - var(--base-s)) / 6)),22.5%);
+	--b-950: hsl(var(--base-h), calc(var(--base-s) + 5*((100% - var(--base-s)) / 6)),15%);
+	--b-975: hsl(var(--base-h), calc(var(--base-s) + 6*((100% - var(--base-s)) / 6)),7.5%);	
+
+/* ----------------------------------- */
+/* --- SHADE SHADES NO SATURATION ---- */
+/* ----------------------------------- */
+	
+	--shade-50: hsl(var(--shade-h), var(--shade-s), 97.5%);
+	--shade-75: hsl(var(--shade-h), var(--shade-s), 90%);
+	--shade-100: hsl(var(--shade-h), var(--shade-s), 82.5%);
+	--shade-200: hsl(var(--shade-h), var(--shade-s), 75%);
+	--shade-300: hsl(var(--shade-h), var(--shade-s), 67.5%);
+	--shade-400: hsl(var(--shade-h), var(--shade-s), 60%);
+	--shade-500: hsl(var(--shade-h), var(--shade-s),52.5%);
+	--shade-600: hsl(var(--shade-h), var(--shade-s), 45%);
+	--shade-700: hsl(var(--shade-h), var(--shade-s), 37.5%);
+	--shade-800: hsl(var(--shade-h), var(--shade-s), 30%);
+	--shade-900: hsl(var(--shade-h), var(--shade-s), 22.5%);
+	--shade-950: hsl(var(--shade-h), var(--shade-s), 15%);
+	--shade-975: hsl(var(--shade-h), var(--shade-s), 7.5%);
+
+}
