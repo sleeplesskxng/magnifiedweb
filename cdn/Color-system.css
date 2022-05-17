@@ -1,7 +1,7 @@
 :root {
 
 /* ---------------------- */
-/* --- PRIMARY SHADES --- */
+/* --- PRIMARY SHADES test --- */
 /* ---------------------- */
 	
     --p-50: hsl(var(--primary-h), calc(var(--primary-s) + 6*((100% - var(--primary-s)) / 6)),97.5%);
